@@ -36,6 +36,16 @@ You can run this project locally by running the following command:
 npm start
 ```
 
+## Deploy to GitHub Pages
+
+To deploy to GitHub Pages, run the following command:
+
+```bash
+npm run deploy
+```
+
+A new commit will be made to the gh-pages branch, and the project will be deployed to GitHub Pages.
+
 ## License
 
 This project is licensed under the MIT license.
