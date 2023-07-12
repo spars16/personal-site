@@ -1,23 +1,59 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0 50px;
-    height: 70px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
+    background-color: #FFF;
+    height: 40px;
 }
 
 .logo {
-    font-size: 30px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logoLink {
     text-decoration: none;
+    color: #7D7D7D;
+    font-family: Helvetica, sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.spacer {
+    width: .5px;
+    height: 20px;
+    background-color: #E3E3E3;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.shortSpacer {
+    width: .6px;
+    height: 10px;
+    background-color: #E3E3E3;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #7D7D7D;
+    font-family: Helvetica, sans-serif;
+    font-size: 7px;
+    font-weight: lighter;
+}
+
+.navLink:hover {
+    color: #000;
 }

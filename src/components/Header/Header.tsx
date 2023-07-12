@@ -5,13 +5,16 @@ import styles from './Header.module.css';
 const Header = () => {
     return (
         <div className={styles.header}>
-            <div className="logo">
-                <Link to="/">Portfolio</Link>
+            <div className={styles.logo}>
+                <Link className={styles.logoLink} to="/">SPARSH SRIVASTAVA</Link>
             </div>
-            <div className="nav">
-                <Link to="/about">About</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+            <div className={styles.spacer} />
+            <div className={styles.nav}>
+                <Link className={styles.navLink} to="/about">ABOUT</Link>
+                <div className={styles.shortSpacer} />
+                <Link className={styles.navLink} to="/projects">PROJECTS</Link>
+                <div className={styles.shortSpacer} />
+                <Link className={styles.navLink} to="/contact">CONTACT</Link>
             </div>
         </div>
     )
